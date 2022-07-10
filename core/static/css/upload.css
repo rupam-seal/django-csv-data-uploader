@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.form-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upload-files-container {
+  width: 420px;
+  padding: 30px 60px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.drag-file-area {
+  border: 2px dashed #9347ff;
+  border-radius: 40px;
+  margin: 10px 0 15px;
+  padding: 30px 50px;
+  width: 350px;
+  text-align: center;
+}
+.drag-file-area .upload-icon {
+  font-size: 50px;
+}
+.drag-file-area h3 {
+  font-size: 26px;
+  margin: 15px 0;
+}
+.drag-file-area label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+}
+.drag-file-area label .browse-files-text {
+  color: #9347ff;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.browse-files span {
+  position: relative;
+  top: -25px;
+}
+
+#inp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.upload-button {
+  font-family: "Montserrat";
+  background-color: #9347ff;
+  color: #f7fff7;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 7.5px 50px;
+  cursor: pointer;
+}
